@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	const int size = 5;
+	int x[size] = {3 , 5, 4 , 6, 7}; // لو اعرف عدد العناصر افتح قوس واكتبهم هنا { } كذا شكله
+	cout << x[2] << endl; //  اول عنصر يبدا من صفر يطبع 4
+	x[2] = x[1] + x[3];// اقدر اسوي عمليات بعد عليهم كذا 
+	cout << x[1] << " \n" << x[2]; 
+	system("pause");
+	return 0;
+}
